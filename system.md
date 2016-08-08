@@ -41,8 +41,7 @@ react-native: http://facebook.github.io/react-native/docs/getting-started.html
 npm config set registry https://registry.npm.taobao.org
 
 ***watchman***
-- setuptools(v2.7.12) http://my.oschina.net/deanzhao/blog/317603 
-python setuptools http://my.oschina.net/deanzhao/blog/317603
+- setuptools(v2.7.12) http://my.oschina.net/deanzhao/blog/317603
 - autoconf: sudo apt-get install autoconf
 - automake: sudo apt-get install automake
 - python-dev: sudo apt-get install python-dev
