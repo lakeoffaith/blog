@@ -18,16 +18,16 @@ chrome: http://www.google.cn/chrome/browser/desktop/index.html
 
 https://developer.android.com/studio/install.html
 
-(Note error)http://askubuntu.com/questions/637113/unable-to-locate-package-lib32bz2-1-0
+***error***
+
+- error detail:http://askubuntu.com/questions/637113/unable-to-locate-package-lib32bz2-1-0
+- resolution (change sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6 to sudo apt-get install lib32z1 lib32ncurses5 libbz2-1.0:i386 lib32stdc++6)
 
 jdk  1.8 http://jingyan.baidu.com/article/e2284b2b61a2efe2e6118d39.html
 
 open  sdk manager to download something
 
-**npm**
 
-npm 
-config set registry https://registry.npm.taobao.org
 
 **Nuclide**
 
@@ -35,21 +35,17 @@ config set registry https://registry.npm.taobao.org
  
 **react-native**
 
-react-native: 
+react-native: http://facebook.github.io/react-native/docs/getting-started.html
 
-http://facebook.github.io/react-native/docs/getting-started.html
+***node***  v4.4.7
+npm config set registry https://registry.npm.taobao.org
 
-node  v4.4.7
-
-watchman
-
+***watchman***
+- setuptools(v2.7.12) http://my.oschina.net/deanzhao/blog/317603 
 python setuptools http://my.oschina.net/deanzhao/blog/317603
-
-sudo apt-get install python-dev
-
-autoTools (http://blog.csdn.net/liang890319/article/details/8274917)
-
-gradle  http://www.cnblogs.com/wjhblogs/p/5063969.html
+- autoconf: sudo apt-get install autoconf
+- automake: sudo apt-get install automake
+- python-dev: sudo apt-get install python-dev
 
 **github**
 
