@@ -31,7 +31,7 @@ open  sdk manager to download something
 
 **Nuclide**
 
- https://nuclide.io/docs/editor/setup/   (ctrl _ ,)
+ https://nuclide.io/docs/editor/setup/   (ctrl ,)
  
 **react-native**
 
