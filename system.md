@@ -29,9 +29,7 @@ open  sdk manager to download something
 
 
 
-**Nuclide**
 
- https://nuclide.io/docs/editor/setup/   (ctrl ,)
  
 **react-native**
 
@@ -50,6 +48,11 @@ npm config set registry https://registry.npm.taobao.org
 
 http://www.cnblogs.com/yourihua/archive/2012/07/07/2580147.html
 
+**Nuclide**
+
+ https://nuclide.io/docs/editor/setup/   (ctrl ,)
+ - Flow https://nuclide.io/docs/languages/flow/
+		 
 **run and debug**
 
 http://blog.csdn.net/hello_hwc/article/details/51612139
