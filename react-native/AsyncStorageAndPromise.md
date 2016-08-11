@@ -1,4 +1,4 @@
-##Promise and AsyncStorage
+##Promise and AsyncStorage React Native
   	Promise in javascript is the seventh type,is (key,value),is chain.
   
   	AsyncStorage is globe variable like (key,value);many methods they return Promise.
