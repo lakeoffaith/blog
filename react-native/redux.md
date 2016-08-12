@@ -6,6 +6,9 @@
     http://jo.wtf/comprehensive-react-native-redux-tutorial/)
     [http://jo.wtf/react-native-redux-add-reducer/](
     http://jo.wtf/react-native-redux-add-reducer/)
+    [http://bbs.reactnative.cn/topic/26](
+    http://bbs.reactnative.cn/topic/26)
+    [http://www.jianshu.com/p/cf5e33f7b5bf](http://www.jianshu.com/p/cf5e33f7b5bf)
 ***think***
 	a state manager
     flow is action-storechange-viewchange-actiong-..
@@ -53,3 +56,10 @@
     }
   }
    ```
+   
+   
+
+
+
+* * *
+update 2016-08-13

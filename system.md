@@ -59,3 +59,8 @@ http://blog.csdn.net/hello_hwc/article/details/51612139
 
 **oracle 12 c**
 http://www.techienote.com/install-oracle-12c-on-ubuntu/
+
+
+* * *
+last update:2016-08-13
+
