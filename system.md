@@ -1,4 +1,4 @@
-##Ubuntu 16.04 LTS SET REACT-NATIVE Develop Environment
+##Ubuntu 16.04 LTS SET REACT-NATIVE And Oracle Develop Environment
 **system**
  - ubuntu 16.04
 
@@ -56,3 +56,6 @@ http://www.cnblogs.com/yourihua/archive/2012/07/07/2580147.html
 **run and debug**
 
 http://blog.csdn.net/hello_hwc/article/details/51612139
+
+**oracle 12 c**
+http://www.techienote.com/install-oracle-12c-on-ubuntu/
