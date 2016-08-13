@@ -13,6 +13,7 @@
 	a state manager
     flow is action-storechange-viewchange-actiong-..
 ***code***
+
    - index.android.js
    	```
     import React from 'react'
@@ -22,6 +23,7 @@
     import App from './app/containers/app'
     AppRegistry.registerComponent('demo',()=>App);
     ```
+    
    - app/containers/app.js
    ```
    import React,{Component} from 'react'
