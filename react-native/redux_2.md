@@ -114,4 +114,9 @@ export default function counter(state=initialState,action={}){
     
 * * *
 
-last update 2016-08-19
+***issues***
+可能出现的问题 state is undefined ,问题请注意在counterApp.js connect方法的第一个参数里面 state:state.counter 这里的counter指的是reduxers里面的reduxer counter 方法。不能写成state.look. state 为store,store 里面存的为各个reduxer 方法名为key 的对象，对象里面包含key 为look的对象。
+
+* * *
+ update 2016-08-19
+ update 2016-08-22

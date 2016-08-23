@@ -2,11 +2,11 @@
 
 ***ref***
 
-https://t.co/2VmkcfefPQ 
+http://redux.js.org/docs/introduction/index.html
 
 ***log***
 
-start
+Reducers
 
 
 ***ref2***
