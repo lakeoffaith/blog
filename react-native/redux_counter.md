@@ -1,4 +1,4 @@
-##react native redux  -2
+##react native redux  counter
 
 ***read***
 	https://github.com/alinz/example-react-native-redux/tree/master/Counter
