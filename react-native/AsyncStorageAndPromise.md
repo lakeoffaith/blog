@@ -5,6 +5,13 @@
 
 ***use***
 ```
+function DataRepository() { // Singleton pattern
+  if (typeof DataRepository.instance === 'object') {
+    return DataRepository.instance;
+  }
+
+  DataRepository.instance = this;
+}
 DataRepository.prototype._safeFetch=function(reqUrl:string){
   console.log(reqUrl);
   return new Promise((resolve,reject)=>{
@@ -61,3 +68,11 @@ DataRepository.prototype.fetchHospital=function(callback?:?(error:?Error,result:
 	
     in the index.android.js,wo can get the promise object,to add a new chain,to setState.
   
+  
+####ref####
+[http://navyblue.top/article/61](http://navyblue.top/article/61)
+
+[http://git.oschina.net/vasth/dianhua/blob/master/DataRepository.js?dir=0&filepath=DataRepository.js&oid=14d1432a77f8377e2e10952fc8e0647f7269264b&sha=b48bea2d9a9e97bb6328b793f6276a102a4c8e19](http://git.oschina.net/vasth/dianhua/blob/master/DataRepository.js?dir=0&filepath=DataRepository.js&oid=14d1432a77f8377e2e10952fc8e0647f7269264b&sha=b48bea2d9a9e97bb6328b793f6276a102a4c8e19)
+
+* * *
+update 2016-08-28
