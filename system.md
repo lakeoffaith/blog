@@ -52,6 +52,8 @@ http://www.cnblogs.com/yourihua/archive/2012/07/07/2580147.html
 
  https://nuclide.io/docs/editor/setup/   (ctrl ,)
  - Flow https://nuclide.io/docs/languages/flow/
+ - others
+[http://blog.csdn.net/caroline_wendy/article/details/50107845](http://blog.csdn.net/caroline_wendy/article/details/50107845)
 		 
 **run and debug**
 
@@ -62,5 +64,7 @@ http://www.techienote.com/install-oracle-12c-on-ubuntu/
 
 
 * * *
-last update:2016-08-13
+update:2016-08-13
+last update:2016-08-29
+
 
