@@ -9,8 +9,15 @@
 ## github
 [git@github.com:lakeoffaith/bbook.git](git@github.com:lakeoffaith/bbook.git)
 
+##express
+ ~2016-09-15   v1版本上线
+##progress
+后台(2016-9-1)
+	服务器选择阿里云，数据库选择oracle,后台选择spring+mybatis
+
 * * *
-last update 2016-08-30
+update 2016-08-30
+last update 2016-09-01
 
 
 
