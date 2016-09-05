@@ -19,6 +19,11 @@
     
     React native 0.31 was dependtent on react 15.2.1
 
+###last
+	移除原有的app,重新react-native run-android 就好了。
 
 ###ref
 	[http://stackoverflow.com/questions/38690502/manually-calling-a-react-proptypes-validation-react-native-0-30-0](http://stackoverflow.com/questions/38690502/manually-calling-a-react-proptypes-validation-react-native-0-30-0)
+    
+* * *
+last updated  2016-08-31
