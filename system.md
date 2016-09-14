@@ -37,7 +37,7 @@ open  sdk manager to download something
 
 react-native: http://facebook.github.io/react-native/docs/getting-started.html
 
-***node***  v4.4.7
+***node***  v6.5  (安装最新的node,f8app就需要>5)
 npm config set registry https://registry.npm.taobao.org
 
 ***watchman***
