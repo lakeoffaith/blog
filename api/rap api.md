@@ -2,7 +2,8 @@
 
 ##explain
 在后端还没好的情况下，为了前端能获取模拟的数据(json),我们决定采用RAP 作为mock,供前端调用。
-
+##step
+将jsmock修改成jsmockdata可以将响应结果变成json文本，转换为json就可以直接使用
 ##case
 1. 请求 变量名 id	备注 @mock=200   没有id的话默认为200
 2. 响应 变量名  userId  备注  @mock=@userId    让返回的userId的值等于请求参数id
@@ -16,4 +17,5 @@
 
 
 * * *
-last update 2016-09-09
+update 2016-09-09
+last update 2016-09-11
