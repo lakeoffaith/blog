@@ -18,7 +18,7 @@
 
 [http://mockjs.com/examples.html](http://mockjs.com/examples.html)
 
-
+[https://segmentfault.com/a/1190000003087224](https://segmentfault.com/a/1190000003087224)
 * * *
 update 2016-09-09
 update 2016-09-11
