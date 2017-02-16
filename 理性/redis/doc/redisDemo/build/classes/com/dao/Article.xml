@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.dao.ArticleDao">
+	<!--<cache/>  -->
+	<resultMap type="Article" id="ArticleResultMap">
+		<id column="id" property="id"/>
+		<result column="name" property="name"/>
+		<result column="content" property="content"/>
+		<collection property="comments" ofType="Comment" select="selectCommentByArticleId"  column="id">
+		</collection>
+	</resultMap>
+	<select id="selectCommentByArticleId" parameterType="int" resultType="Comment" >
+		select * from comment where articleId=#{id}
+	</select>
+	<insert id="insert" parameterType="Article">
+		insert into article(name,content) values(#{name},#{content})
+	</insert>
+	<delete id="delete" parameterType="int">
+		delete from article where id=#{id}
+	</delete>  
+	
+	<update id="update" parameterType="Article">
+		update article 
+		set name=#{name},content=#{content} 
+		where id=#{id}
+	</update>
+	<select id="findAll" resultType="Article">
+		select * from article
+	</select>
+	
+	<select id="findArticleCommentsDetailsId" parameterType="int" resultMap="ArticleResultMap">
+		select * from article where id=#{id}
+	</select>
+	
+	
+</mapper>
