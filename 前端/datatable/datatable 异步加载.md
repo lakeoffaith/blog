@@ -1,10 +1,16 @@
-## datatable 异步加载
+## datatable 
 
-1.页面加载完成后，$("#table").dataTable({})，进行加载
+* 页面加载完成后，$("#table").dataTable({})，进行加载
 
-2.按钮点击后，重新加载。$("#table").DataTable().ajax.reload();
+* 按钮点击后，重新加载。$("#table").DataTable().ajax.reload();
 
+* 传输添加参数
 
+  ```
+  fnServerParams 增加参数 aoData.push({"name": "conds", "value": data}); 
+  ```
+
+  ​
 
 
 
