@@ -10,8 +10,13 @@
   fnServerParams 增加参数 aoData.push({"name": "conds", "value": data}); 
   ```
 
-  ​
+* 判断是否已经初始化了
 
+  ```
+   $('#datatable1').hasClass('dataTable')
+  ```
+
+  ​
 
 
 1.自定义列
