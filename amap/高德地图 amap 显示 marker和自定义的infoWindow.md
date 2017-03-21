@@ -3,13 +3,11 @@
 ##explains
 在实现的app中需要查看附近的活动状态，就需要用到marker和自定义的infoWindow.实现这个功能我会去找下高德组件是否支持这个修改，通过查询，是可以的。百度 高德 marker android 图片，出来了很多图片，里面有很好的已经解决了效果图
 [http://blog.csdn.net/zhoumushui/article/details/48804157](http://blog.csdn.net/zhoumushui/article/details/48804157)
-进一步结合官方api能实现小的demo,但时自定义InfoWindow没有，在github中搜索getInfoWindow 等修改infoWindow的方法，来找到了一些好的例子。
+进一步结合官方api能实现小的demo,但是，自定义InfoWindow没有，在github中搜索getInfoWindow 等修改infoWindow的方法，来找到了一些好的例子。
 [https://github.com/JasonBour/learngit/blob/d82295bf16c8aaf3230e462ab7b3e05ad124b9fb/Newapp/src/com/example/fragments/FindFragment.java](https://github.com/JasonBour/learngit/blob/d82295bf16c8aaf3230e462ab7b3e05ad124b9fb/Newapp/src/com/example/fragments/FindFragment.java)
 最终结果成功出现。
-##show
-显示图片
 ##code
-	
+
     NormalActivity.java
 
 ```
@@ -99,7 +97,7 @@ public class NormalActivity extends FragmentActivity implements AMap.OnMarkerCli
 ```
 
 	activity_marker.xml
-    
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -132,4 +130,4 @@ public class NormalActivity extends FragmentActivity implements AMap.OnMarkerCli
 ```
 
 * * * 
-last update 2015-09-19
+      last update 2015-09-19
