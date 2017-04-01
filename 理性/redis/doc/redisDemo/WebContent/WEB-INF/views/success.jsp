@@ -8,14 +8,16 @@
 </head>
 <body>
 	hello lizhengang
-	
+
 	<button id="Add">增加一条数据</button>
 	<button id="Delete">删除一条数据</button>
 	<script type="text/javascript">
 		function ajax(actionName){
 			var xmr=null;
+			var params = "name=lihao"; 
 			xmr=new XMLHttpRequest();
-			xmr.open("GET","http://localhost:8080/redisDemo/"+actionName);
+			xmr.open("GET","http://localhost:8080/redisDemo/"+actionName+"?name=lihao");
+			xmr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 			xmr.onreadystatechange=function(){
 				if(xmr.readyState==4 && xmr.status==200){
 					console.log(xmr.responseText);

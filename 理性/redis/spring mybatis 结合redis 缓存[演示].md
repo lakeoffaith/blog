@@ -102,13 +102,14 @@
     		COMMIT;
     	END IF;
     	SELECT t_error;
+    ```
 
 
 
     END
-    ```
+    ​```
 
-  * 根据文章的id来查询 所有的评论
+*   根据文章的id来查询 所有的评论
 
   * 查看到发送的sql
 
@@ -122,7 +123,7 @@
 
     > 服务器安装 http://www.cnblogs.com/koal/p/5484916.html
     >
-    > 客户端使用  如 flushall
+    > 客户端使用  如 flushall 
     >
     > 包:jedis  和spring-data-redis
     >

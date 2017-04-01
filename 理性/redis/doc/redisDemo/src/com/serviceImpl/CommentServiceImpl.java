@@ -58,7 +58,7 @@ public class CommentServiceImpl implements CommentService{
 			@Override
 			public Serializable doInRedis(RedisConnection connection) throws DataAccessException {
 				RedisSerializer<Serializable> serializer = (RedisSerializer<Serializable>) redisTemplate.getDefaultSerializer();
-				byte[] key=serializer.serialize("Comment_findAll");
+				byte[] key=serializer.serialize("Comment_findAll"); 
 				if(connection.get(key)!=null){
 					connection.del(key);
 				}

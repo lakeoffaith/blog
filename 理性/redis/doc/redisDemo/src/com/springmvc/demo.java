@@ -1,6 +1,7 @@
 package com.springmvc;
 
 
+import java.util.List;
 import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,10 +25,10 @@ public class demo {
 	public ArticleDao articleDao;
 	@Autowired
 	public CommentMapper commentDao;
-	@Autowired
+	@Autowired   
 	public CommentService commentService;
 	@RequestMapping("/hello")
-	public String hello(){
+	public String hello(String name){
 		
 		
 		/*System.out.println("-------根据文章的id来查询评论--------");
@@ -38,15 +39,15 @@ public class demo {
 		System.out.println("----------------");
 		System.out.println(a);*/
 		
-		
-		commentService.findAll();
+		System.out.println(name);
+		List<Comment> r=commentService.findAll();
 		
 		return "success";
 	}
 	@RequestMapping("/add")
 	@ResponseBody
-	public String add(){
-		System.out.println("add");
+	public String add(String name){
+		System.out.println("add"+name);
 		Random r=new  Random();
 		int index=r.nextInt(1000);
 		Article article=articleDao.findAll().get(index);
